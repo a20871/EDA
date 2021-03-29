@@ -1,0 +1,5 @@
+A	H Braga	5
+B	H Barcelos	3
+C	H Viana	3
+D	H Famalicao	2
+E	H Povoa	2
