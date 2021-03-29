@@ -27,6 +27,9 @@
     <ClCompile Include="listar.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="atribuiVaga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fonte.h">

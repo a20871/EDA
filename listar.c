@@ -11,3 +11,15 @@ void listar(Utente* inicio)
     }
     
 }
+
+void listarH(Hospital* inicio)
+{
+    Hospital* h = inicio;
+    while (h != NULL)
+    {
+        printf("%c\t%-12s\t%d\n", h->id, h->nome, h->vagas);
+        h = h->proximo;
+
+    }
+
+}

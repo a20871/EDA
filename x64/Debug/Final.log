@@ -1,0 +1,4 @@
+﻿  criasListas.c
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\criasListas.c(11,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\criasListas.c(33,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+  Final.vcxproj -> C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\x64\Debug\Final.exe

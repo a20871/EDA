@@ -22,3 +22,25 @@ Utente* leFicheiro(Utente* inicio) {
 
 	return inicio;
 }
+
+Hospital* leFicheiroH(Hospital* inicio) {
+
+	Hospital* h = malloc(sizeof(Hospital));
+
+	FILE* listaHospitais = fopen("hospitais.txt", "r");
+
+	if (listaHospitais == NULL) {
+		printf("Erro ao ler ficheiro");
+		return inicio;
+	}
+	else {
+		while (!feof(listaHospitais)) {
+
+			fscanf(listaHospitais, "%c\t%[^\t]\t%d\n", &h->id, &h->nome, &h->vagas);
+			inicio = inserirInicioHospital(inicio, h->id, h->nome, h->vagas);
+		}
+	}
+	fclose(listaHospitais);
+
+	return inicio;
+}

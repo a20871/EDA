@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="atribuiVaga.c" />
     <ClCompile Include="criasListas.c" />
     <ClCompile Include="listar.c" />
     <ClCompile Include="main.c" />

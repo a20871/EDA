@@ -10,5 +10,8 @@ int main(){
 
 	listar(lista);
 
+	Hospital* hosp = NULL;
+	hosp = leFicheiroH(hosp);
+	listarH(hosp);
 
 }
