@@ -21,16 +21,14 @@
 //
 //
 //}
-Hospital* associaUtente(Hospital* inicio, Utente* inicio2, char nome)
+Hospital* associaUtente(Hospital* inicio, Utente* inicio2)
 {
-	while (inicio2 != NULL)
+	while (inicio != NULL)
 	{
-		while ((inicio != NULL) && (inicio->id != nome))
-			inicio = inicio->proximo;
-
-		if (inicio2->hosp1 == nome)
+		while (inicio2 != NULL)
 		{
-			if (inicio != NULL)
+
+			if (inicio->id == inicio2->hosp1)
 			{
 				Utente* novo = (Utente*)malloc(sizeof(Utente));
 				if (novo != NULL)
@@ -43,11 +41,13 @@ Hospital* associaUtente(Hospital* inicio, Utente* inicio2, char nome)
 					inicio->lista = novo;
 
 				}
-			}
 
-		}inicio2 = inicio2->proximo;
+			}inicio2 = inicio2->proximo;
+		}
+		inicio = inicio->proximo;
 	}return inicio;
 }
+
 //Ainda nao esta a funcionar
 /*Hospital* ordenaDistancia(Hospital* inicio, char nome)
 {

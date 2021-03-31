@@ -54,7 +54,7 @@ void listarH(Hospital* inicio);
 
 //Associa um utente com sns "n", nome "nome[]", distancia "d" à lista "inicio" do hospital char"hosp"
 //void associaUtente(Hospital* inicio, char hosp, int n, char nome[], int d);
-Hospital* associaUtente(Hospital* inicio, Utente* inicio2, char nome);
+Hospital* associaUtente(Hospital* inicio, Utente* inicio2);
 //Hospital* ordenaDistancia(Hospital* inicio, char nome);
 
 #endif // !DADOS

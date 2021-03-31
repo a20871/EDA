@@ -19,11 +19,7 @@ int main(){
 	c = 'C';
 	d = 'D';
 	e = 'E';
-	associaUtente(hosp, lista, a);
-	associaUtente(hosp, lista, b);
-	associaUtente(hosp, lista, c);
-	associaUtente(hosp, lista, d);
-	associaUtente(hosp, lista, e);
-
+	associaUtente(hosp, lista);
+	
 	//ordenaDistancia(hosp, a);
 }
