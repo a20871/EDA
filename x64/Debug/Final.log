@@ -1,10 +1,3 @@
 ﻿  atribuiVaga.c
-D:\EDA\atribuiVaga.c(39,60): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-  criasListas.c
-D:\EDA\criasListas.c(11,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-D:\EDA\criasListas.c(33,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-  listar.c
-  main.c
-  recebeFicheiro.c
-  Generating Code...
+D:\EDA\atribuiVaga.c(37,60): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
   Final.vcxproj -> D:\EDA\x64\Debug\Final.exe
