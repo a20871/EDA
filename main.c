@@ -13,5 +13,17 @@ int main(){
 	Hospital* hosp = NULL;
 	hosp = leFicheiroH(hosp);
 	listarH(hosp);
+	char a, b, c, d, e;
+	a = 'A';
+	b = 'B';
+	c = 'C';
+	d = 'D';
+	e = 'E';
+	associaUtente(hosp, lista, a);
+	associaUtente(hosp, lista, b);
+	associaUtente(hosp, lista, c);
+	associaUtente(hosp, lista, d);
+	associaUtente(hosp, lista, e);
 
+	//ordenaDistancia(hosp, a);
 }
