@@ -57,4 +57,6 @@ void listarH(Hospital* inicio);
 Hospital* associaUtente(Hospital* inicio, Utente* inicio2);
 //Hospital* ordenaDistancia(Hospital* inicio, char nome);
 
+void listarListas(Hospital* inicio);
+
 #endif // !DADOS

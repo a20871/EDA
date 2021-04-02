@@ -1,50 +1,34 @@
 #include "fonte.h"
 
-//void associaUtente(Hospital* inicio, char hosp, int n, char nome[], int d) {
-//
-//	while ((inicio != NULL) && (inicio->id != hosp))
-//	{
-//		inicio = inicio->proximo;
-//
-//		if (inicio != NULL) {
-//			Utente* novo = (Utente*)malloc(sizeof(Utente));
-//			if (novo != NULL) {
-//				novo->sns = n;
-//				novo->nome[20-1] = strcpy(novo->nome, nome);
-//				novo->dist1 = d;
-//
-//				novo->proximo = inicio->lista;
-//				inicio->lista = novo;
-//			}
-//		}
-//	}
-//
-//
-//}
+
 Hospital* associaUtente(Hospital* inicio, Utente* inicio2)
 {
 	while (inicio != NULL)
+	
 	{
-		while (inicio2 != NULL)
+		Utente* aux = inicio2;
+		while (aux != NULL)
 		{
 
-			if (inicio->id == inicio2->hosp1)
+			if (inicio->id == aux->hosp1)
 			{
 				Utente* novo = (Utente*)malloc(sizeof(Utente));
 				if (novo != NULL)
 				{
-					novo->sns = inicio2->sns;
-					novo->nome[20 - 1] = strcpy(novo->nome, inicio2->nome);
-					novo->dist1 = inicio2->dist1;
+					novo->sns = aux->sns;
+					novo->nome[20 - 1] = strcpy(novo->nome, aux->nome);
+					novo->dist1 = aux->dist1;
 
 					novo->proximo = inicio->lista;
 					inicio->lista = novo;
 
 				}
 
-			}inicio2 = inicio2->proximo;
+			}
+			aux = aux->proximo;
 		}
 		inicio = inicio->proximo;
+
 	}return inicio;
 }
 

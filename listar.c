@@ -23,3 +23,22 @@ void listarH(Hospital* inicio)
     }
 
 }
+
+void listarListas(Hospital* inicio){
+
+    Hospital* h = inicio;
+    while (h != NULL)
+    {
+        printf("%c\t%-12s\t%d\n", h->id, h->nome, h->vagas);
+        while (h->lista->proximo != NULL) {
+            printf("%d\t%s\t%d\n",h->lista->sns, h->lista->nome, h->lista->dist1);
+            h->lista = h->lista->proximo;
+        }
+
+        h = h->proximo;
+
+
+    }
+
+
+}
