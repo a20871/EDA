@@ -42,5 +42,9 @@ Hospital* leFicheiroH(Hospital* inicio) {
 	}
 	fclose(listaHospitais);
 
+	inicio = novaListaInversa(inicio);
+
 	return inicio;
 }
+
+

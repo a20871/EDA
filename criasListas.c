@@ -33,6 +33,7 @@ Hospital* inserirInicioHospital(Hospital* inicio, char letra, char n[], int limi
         novo->nome[50-1] = strcpy(novo->nome, n);
         novo->vagas = limite;
         novo->proximo = inicio;
+        novo->lista = NULL;
         return(novo);
 
     }

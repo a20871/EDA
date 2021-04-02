@@ -12,13 +12,6 @@ int main(){
 	hosp = leFicheiroH(hosp);
 	listarH(hosp);
 
-	/*char a, b, c, d, e;
-	a = 'A';
-	b = 'B';
-	c = 'C';
-	d = 'D';
-	e = 'E';*/
-
 	associaUtente(hosp, lista);
 	listarListas(hosp);
 	

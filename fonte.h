@@ -52,11 +52,15 @@ Hospital* leFicheiroH(Hospital* inicio);
 //mostra lista de hospitais
 void listarH(Hospital* inicio);
 
-//Associa um utente com sns "n", nome "nome[]", distancia "d" à lista "inicio" do hospital char"hosp"
-//void associaUtente(Hospital* inicio, char hosp, int n, char nome[], int d);
+//Atribui cada utente ao Hospital da sua primeira prioridade
 Hospital* associaUtente(Hospital* inicio, Utente* inicio2);
+
 //Hospital* ordenaDistancia(Hospital* inicio, char nome);
 
+//Mostra as listas de cada utente em cada hospital
 void listarListas(Hospital* inicio);
+
+//Inverte ordem dos Hospitais
+Hospital* novaListaInversa(Hospital* inicio);
 
 #endif // !DADOS

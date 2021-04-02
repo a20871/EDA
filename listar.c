@@ -19,6 +19,7 @@ void listarH(Hospital* inicio)
     {
         printf("%c\t%-12s\t%d\n", h->id, h->nome, h->vagas);
         h = h->proximo;
+        
 
     }
 
@@ -29,8 +30,9 @@ void listarListas(Hospital* inicio){
     Hospital* h = inicio;
     while (h != NULL)
     {
+        printf("========================================\n");
         printf("%c\t%-12s\t%d\n", h->id, h->nome, h->vagas);
-        while (h->lista->proximo != NULL) {
+        while (h->lista != NULL) {
             printf("%d\t%s\t%d\n",h->lista->sns, h->lista->nome, h->lista->dist1);
             h->lista = h->lista->proximo;
         }

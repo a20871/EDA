@@ -30,6 +30,9 @@
     <ClCompile Include="atribuiVaga.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inversaHosp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fonte.h">
