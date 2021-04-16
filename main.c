@@ -12,7 +12,13 @@ int main(){
 	hosp = leFicheiroH(hosp);
 	listarH(hosp);
 
+
 	associaUtente(hosp, lista);
+
+	listarListas(hosp);
+
+	ordenar(hosp);
+
 	listarListas(hosp);
 	
 	//ordenaDistancia(hosp, a);

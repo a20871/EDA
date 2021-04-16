@@ -1,8 +1,9 @@
 #include "fonte.h"
 
 
-Hospital* associaUtente(Hospital* inicio, Utente* inicio2)
+void associaUtente(Hospital* inicio, Utente* inicio2)
 {
+	
 	while (inicio != NULL)
 	
 	{
@@ -29,34 +30,47 @@ Hospital* associaUtente(Hospital* inicio, Utente* inicio2)
 		}
 		inicio = inicio->proximo;
 
-	}return inicio;
+	}
+	
 }
 
+
+void ordenar(Hospital* inicio) {
+
+	
+}
+
+
+
+
+
+
+
 //Ainda nao esta a funcionar
-/*Hospital* ordenaDistancia(Hospital* inicio, char nome)
-{
-	Hospital* aux = (Hospital*)malloc(sizeof(Hospital));
-
-	while (inicio != NULL && inicio->id != nome)
-		inicio = inicio->proximo;
-
-	if (inicio != NULL)
-	{
-		Utente* ant = inicio->lista;
-		Utente* actual = inicio->lista;
-		while (ant != NULL && actual != NULL)
-		{
-			int aux;
-			if (ant->dist1 > actual->dist1)//ESTA A DAR ERRO
-			{
-				aux = ant->dist1;
-				ant->dist1 = actual->dist1;
-				actual->dist1 = aux;
-			}
-			ant = actual;
-			actual = actual->proximo;
-
-		}
-		return actual;
-	}
-}*/
+//Hospital* ordenaDistancia(Hospital* inicio, char nome)
+//{
+//	Hospital* aux = (Hospital*)malloc(sizeof(Hospital));
+//
+//	while (inicio != NULL && inicio->id != nome)
+//		inicio = inicio->proximo;
+//
+//	if (inicio != NULL)
+//	{
+//		Utente* ant = inicio->lista;
+//		Utente* actual = inicio->lista;
+//		while (ant != NULL && actual != NULL)
+//		{
+//			int aux;
+//			if (ant->dist1 > actual->dist1)//ESTA A DAR ERRO
+//			{
+//				aux = ant->dist1;
+//				ant->dist1 = actual->dist1;
+//				actual->dist1 = aux;
+//			}
+//			ant = actual;
+//			actual = actual->proximo;
+//
+//		}
+//		return actual;
+//	}
+//}

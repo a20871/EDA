@@ -1,2 +1,4 @@
-﻿  main.c
+﻿  atribuiVaga.c
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(20,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(49,35): warning C4047: '>': 'int' differs in levels of indirection from 'utente *'
   Final.vcxproj -> C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\x64\Debug\Final.exe

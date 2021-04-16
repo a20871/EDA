@@ -53,7 +53,7 @@ Hospital* leFicheiroH(Hospital* inicio);
 void listarH(Hospital* inicio);
 
 //Atribui cada utente ao Hospital da sua primeira prioridade
-Hospital* associaUtente(Hospital* inicio, Utente* inicio2);
+void associaUtente(Hospital* inicio, Utente* inicio2);
 
 //Hospital* ordenaDistancia(Hospital* inicio, char nome);
 
@@ -62,5 +62,8 @@ void listarListas(Hospital* inicio);
 
 //Inverte ordem dos Hospitais
 Hospital* novaListaInversa(Hospital* inicio);
+
+//Ordena utentes da lista
+void ordenar(Hospital* inicio);
 
 #endif // !DADOS

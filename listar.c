@@ -31,12 +31,17 @@ void listarListas(Hospital* inicio){
     while (h != NULL)
     {
         printf("========================================\n");
-        printf("%c\t%-12s\t%d\n", h->id, h->nome, h->vagas);
-        while (h->lista != NULL) {
-            printf("%d\t%s\t%d\n",h->lista->sns, h->lista->nome, h->lista->dist1);
-            h->lista = h->lista->proximo;
-        }
+        printf("%c\t%-12s\t%d vagas\n", h->id, h->nome, h->vagas);
 
+        Utente* u = h->lista;
+        while (u != NULL) {
+
+                printf("%d\t%s\t%d\n", u->sns, u->nome, u->dist1);
+                
+            
+
+            u = u->proximo;
+        }
         h = h->proximo;
 
 
