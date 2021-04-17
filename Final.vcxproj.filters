@@ -33,6 +33,12 @@
     <ClCompile Include="inversaHosp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="troca.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ordenacaoUtentes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fonte.h">

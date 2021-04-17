@@ -1,6 +1,6 @@
 #include "fonte.h"
 
-
+//Função para passar a informação de utentes do ficheiro de texto para lista ligada
 Utente* leFicheiro(Utente* inicio) {
 
 	Utente* u = malloc(sizeof(Utente));
@@ -23,6 +23,8 @@ Utente* leFicheiro(Utente* inicio) {
 	return inicio;
 }
 
+
+//Função para passar a informação de hospitais do ficheiro de texto para a lista ligada de hospitais.
 Hospital* leFicheiroH(Hospital* inicio) {
 
 	Hospital* h = malloc(sizeof(Hospital));
@@ -42,6 +44,7 @@ Hospital* leFicheiroH(Hospital* inicio) {
 	}
 	fclose(listaHospitais);
 
+	//Reordena os hospitais por ordem alfabética da letra de designação
 	inicio = novaListaInversa(inicio);
 
 	return inicio;

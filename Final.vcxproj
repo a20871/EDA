@@ -144,7 +144,9 @@
     <ClCompile Include="inversaHosp.c" />
     <ClCompile Include="listar.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="ordenacaoUtentes.c" />
     <ClCompile Include="recebeFicheiro.c" />
+    <ClCompile Include="troca.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fonte.h" />

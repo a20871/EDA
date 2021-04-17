@@ -63,7 +63,10 @@ void listarListas(Hospital* inicio);
 //Inverte ordem dos Hospitais
 Hospital* novaListaInversa(Hospital* inicio);
 
-//Ordena utentes da lista
-//void ordenar(Hospital* inicio);
+//procedimento que troca informação de dois apontadores do tipo utente
+void troca(Utente* pre, Utente* pos);
+
+//procedimento que ordena utentes por ordem crescente de distância 1
+void ordenar(Utente* u);
 
 #endif // !DADOS
