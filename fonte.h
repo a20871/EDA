@@ -64,6 +64,6 @@ void listarListas(Hospital* inicio);
 Hospital* novaListaInversa(Hospital* inicio);
 
 //Ordena utentes da lista
-void ordenar(Hospital* inicio);
+//void ordenar(Hospital* inicio);
 
 #endif // !DADOS

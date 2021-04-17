@@ -35,10 +35,10 @@ void associaUtente(Hospital* inicio, Utente* inicio2)
 }
 
 
-void ordenar(Hospital* inicio) {
-
-	
-}
+//void ordenar(Hospital* inicio) {
+//
+//	
+//}
 
 
 
