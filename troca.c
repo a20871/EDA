@@ -58,4 +58,6 @@ void troca(Utente* pre, Utente* pos) {
 		pos->dist5 = temp->dist5;
 		pos->hosp5 = temp->hosp5;
 	}
+
+	free(temp);
 }

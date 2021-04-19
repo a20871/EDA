@@ -55,8 +55,6 @@ void listarH(Hospital* inicio);
 //Atribui cada utente ao Hospital da sua primeira prioridade
 void associaUtente(Hospital* inicio, Utente* inicio2);
 
-//Hospital* ordenaDistancia(Hospital* inicio, char nome);
-
 //Mostra as listas de cada utente em cada hospital
 void listarListas(Hospital* inicio);
 
