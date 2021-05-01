@@ -18,3 +18,4 @@
 1040	Sergio	B	15	E	8	C	28	A	30	Z	-1
 2020	Rocha	E	31	Z	-1	Z	-1	Z	-1	Z	-1
 3031	Marina	C	10	A	21	B	30	E	14	D	16
+7014	Rui	B	15	C	9	A	14	Z	-1	Z	-1

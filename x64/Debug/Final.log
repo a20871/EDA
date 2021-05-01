@@ -1,16 +1,3 @@
-﻿  atribuiVaga.c
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(20,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-  criasListas.c
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\criasListas.c(11,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\criasListas.c(33,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-  inversaHosp.c
-  listar.c
-  main.c
-  ordenacaoUtentes.c
-  recebeFicheiro.c
-  troca.c
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\troca.c(16,49): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\troca.c(17,47): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\troca.c(18,48): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
-  Generating Code...
+﻿  main.c
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\main.c(56,21): warning C4133: 'return': incompatible types - from 'Hospital *' to 'Utente *'
   Final.vcxproj -> C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\x64\Debug\Final.exe

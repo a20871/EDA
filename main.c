@@ -10,27 +10,54 @@
 
 #include"fonte.h"
 
-void atribVagas(Hospital* inicio) {
+Utente* atribVagas(Hospital* inicio, Utente* rejeitados) {
 
-	//Percorre a lista de utentes atrivuidos a cada hospital, contabilizando cada iteração
-	//Quando o número de iterações for igual ao número de Vagas, copia os utentes seguintes para nova lista;
-	//Percorre a nova lista de utentes não colocados e verifica as opções de preferência seguintes e distâncias.
-		//Se a distância deste utente for inferior as distâncias de algum utente colocado, trocam com a função troca.
-		//Se for encontrado o Hõspital Z nos utentes, avança para o utente seguinte.
+	while (inicio != NULL) {
 
-	int vagasH = 0;
-	int i = 0;
+		//Cria Utente* aux que guarda a posição do apontador enquanto se percorre a lista.
+		Utente* aux = (Utente*)malloc(sizeof(Utente));
+		if (aux != NULL) {
+			aux = inicio->lista;
 
-	vagasH = inicio->vagas;
+			int vagasH = inicio->vagas;
+			int n = 0;
 
-	while (inicio->lista->proximo != NULL) {
+			//Percorre a lista de utentes até atingir o limite de vagas ou chegar ao fim da lista
+			while ((n < vagasH-1) && (inicio->lista != NULL)) {
+
+				inicio->lista = inicio->lista->proximo;
+				aux = aux->proximo;
+				n++;
+			}
+
+			//atingido o limite de vagas, e não tendo chegado ao fim da lista, ou o próximo não seja NULL,
+			//verifica se a distância dos próximos é igual ao último e se for avança até não se verificar essa igualdade
+			if ((inicio->lista != NULL) && (inicio->lista->proximo != NULL)) {
+				while (inicio->lista->dist1 == inicio->lista->proximo->dist1) {
+					inicio->lista = inicio->lista->proximo;
+					aux = aux->proximo;
+
+				}
+				//o último utente fica a apontar para NULL, terminando a lista.
+				inicio->lista->proximo = NULL;
 
 
+				//Continua a percorrer a lista até ao fim, passando os restantes para a lista de rejeitados
+				while (aux != NULL) {
+
+					rejeitados = inserirInicioUtente(rejeitados, aux->sns, aux->nome, aux->hosp1, aux->dist1, aux->hosp2, aux->dist2, aux->hosp3, aux->dist3, aux->hosp4, aux->dist4, aux->hosp5, aux->dist5);
+
+					aux = aux->proximo;
+
+				}
+			}
+			
+		}
+		else return inicio;
+
+		inicio = inicio->proximo;
 	}
-	for (i = 0; i < vagasH; i++) {
-
-	}
-
+	return rejeitados;
 }
 
 int main(){
@@ -58,5 +85,11 @@ int main(){
 	//Apresenta a lista de hospitais com os utentes atribuidos na primeira preferência
 	listarListas(hosp);
 
+	Utente* deFora = NULL;
+
+	deFora = atribVagas(hosp, deFora);
+
+	listar(deFora);
+	listarListas(hosp);
 
 }
