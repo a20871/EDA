@@ -1,7 +1,36 @@
 #include"fonte.h"
 
 
-void ordenar(Utente* u) {
+void ordenar(Hospital* u) {
+
+	Hospital* h = u;
+	while (h != NULL) {
+	Utente* atual = h->lista;
+
+		while (atual != NULL) {
+
+			Utente* next = atual->proximo;
+
+			while (next != NULL) {
+
+
+				if (atual->distFinal > next->distFinal)
+				{
+					troca(atual, next);
+				}
+
+				next = next->proximo;
+			}
+
+			atual = atual->proximo;
+		}
+		h=h->proximo;
+	}
+}
+
+
+void ordenaNumeroUtente(Utente* u) 
+{
 
 	Utente* atual = u;
 
@@ -11,8 +40,9 @@ void ordenar(Utente* u) {
 
 		while (next != NULL) {
 
-			if (atual->dist1 < next->dist1) {
 
+			if (atual->sns > next->sns)
+			{
 				troca(atual, next);
 			}
 

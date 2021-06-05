@@ -1,4 +1,4 @@
-2341	Joao	A	35	C	28	B	37	D	47	E	60
+2341	Joao	A	35	C	28	B	15	D	47	E	60
 6352	Manuel	C	12	A	31	E	44	B	61	D	70
 9087	Maria	E	9	D	65	C	32	A	28	B	45
 3254	Antonio	B	21	E	30	Z	-1	Z	-1	Z	-1

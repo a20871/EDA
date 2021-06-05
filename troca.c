@@ -1,7 +1,7 @@
 #include "fonte.h"
 
-//procedimento que troca informação de dois apontadores do tipo utente
-void troca(Utente* pre, Utente* pos) {
+void troca(Utente* pre, Utente* pos) 
+{
 
 	Utente* temp = (Utente*)malloc(sizeof(Utente));
 
@@ -57,6 +57,27 @@ void troca(Utente* pre, Utente* pos) {
 		pre->hosp5 = pos->hosp5;
 		pos->dist5 = temp->dist5;
 		pos->hosp5 = temp->hosp5;
+
+		//troca distancia final
+		temp->distFinal = pre->distFinal;
+		pre->distFinal = pos->distFinal;
+		pos->distFinal = temp->distFinal;
+
+		//troca hospital da preferencia onde ficou
+		temp->preferencia = pre->preferencia;
+		pre->preferencia = pos->preferencia;
+		pos->preferencia = temp->preferencia;
+
+
+		//troca da variavel empate
+		if (temp->empate != NULL)
+		{
+			temp->empate[19] = strcpy(temp->empate, pre->empate);
+			pre->empate[19] = strcpy(pre->empate, pos->empate);
+			pos->empate[19] = strcpy(pos->empate, temp->empate);
+		}
+
+
 	}
 
 	free(temp);

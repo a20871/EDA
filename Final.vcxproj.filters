@@ -39,6 +39,15 @@
     <ClCompile Include="ordenacaoUtentes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="juntaListas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="juntarListas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="criaFicheiro.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fonte.h">

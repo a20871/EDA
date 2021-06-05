@@ -1,3 +1,17 @@
-﻿  main.c
-C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\main.c(56,21): warning C4133: 'return': incompatible types - from 'Hospital *' to 'Utente *'
+﻿  atribuiVaga.c
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(22,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(36,59): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(67,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(81,59): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(113,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(127,59): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(158,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(172,59): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(203,56): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(217,59): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(262,74): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\atribuiVaga.c(293,66): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+  listar.c
+  main.c
+  Generating Code...
   Final.vcxproj -> C:\Users\marti\OneDrive - Instituto Politécnico do Cávado e do Ave\1ano_2Semestre\Estruturas de dados\Trabalho Final\Final\x64\Debug\Final.exe

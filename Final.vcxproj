@@ -140,8 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="atribuiVaga.c" />
+    <ClCompile Include="criaFicheiro.c" />
     <ClCompile Include="criasListas.c" />
     <ClCompile Include="inversaHosp.c" />
+    <ClCompile Include="juntaListas.c" />
+    <ClCompile Include="juntarListas.c" />
     <ClCompile Include="listar.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ordenacaoUtentes.c" />
