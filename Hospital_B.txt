@@ -1,0 +1,18 @@
+B	H Barcelos	3
+5543	Andre	4	B	Normal
+4578	Ana	14	B	Normal
+2341	Joao	15	B	Normal
+1040	Sergio	15	B	Empate
+7014	Rui	15	B	Empate
+2900	Marco	29	A	Normal
+3031	Marina	10	C	Normal
+3254	Antonio	30	Z	Sem vaga
+3928	Vitor	12	A	Normal
+4352	Luis	70	Z	Sem vaga
+5611	Helder	21	C	Normal
+6060	Paulo	17	D	Normal
+6352	Manuel	12	C	Normal
+6786	Martins	10	A	Normal
+7732	Tania	47	Z	Sem vaga
+8512	Susana	15	A	Normal
+9087	Maria	9	E	Normal

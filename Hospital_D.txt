@@ -1,0 +1,15 @@
+D	H Famalicao	2
+6430	Silva	9	D	Normal
+6060	Paulo	17	D	Normal
+1988	Jose	21	E	Normal
+2341	Joao	15	B	Normal
+2900	Marco	29	A	Normal
+3031	Marina	10	C	Normal
+3928	Vitor	12	A	Normal
+4352	Luis	70	Z	Sem vaga
+5543	Andre	4	B	Normal
+5611	Helder	21	C	Normal
+6352	Manuel	12	C	Normal
+6786	Martins	10	A	Normal
+8512	Susana	15	A	Normal
+9087	Maria	9	E	Normal

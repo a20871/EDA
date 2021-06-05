@@ -1,0 +1,16 @@
+A	H Braga	5
+6786	Martins	10	A	Normal
+5052	Sofia	10	A	Normal
+3928	Vitor	12	A	Normal
+8512	Susana	15	A	Normal
+2900	Marco	29	A	Normal
+1040	Sergio	15	B	Empate
+2341	Joao	15	B	Normal
+3031	Marina	10	C	Normal
+4352	Luis	70	Z	Sem vaga
+5543	Andre	4	B	Normal
+5611	Helder	21	C	Normal
+6060	Paulo	17	D	Normal
+6352	Manuel	12	C	Normal
+7014	Rui	15	B	Empate
+9087	Maria	9	E	Normal
